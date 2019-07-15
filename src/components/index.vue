@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="index">
         <h1>Burger Queen</h1>
         <img id="logo" alt="logo" src="../assets/neko-small2.png">
         <button  v-on:click="go_to_login()" >Entrar</button>
@@ -23,5 +23,8 @@ export default {
 </script>
 
 <style>
-
+  #index {
+    background-color:#0f0f0a;  
+    text-align: center;
+  }
 </style>
