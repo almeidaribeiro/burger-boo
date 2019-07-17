@@ -17,3 +17,8 @@ Para o desenvolvimento do projeto foi escolhido o uso de Vue.js e devemos criar 
 O projeto foi pensado sob demanda para um restaurante específico, mas o sistema pode ser adapatado para outros locais.
 
 ## Checklist do exercício
+
+* [x] `Criar cadastro`
+* [ ] `Fazer login`
+* [ ] `Redirecionamento para tela correspondente para cada tipo de usuário`
+
