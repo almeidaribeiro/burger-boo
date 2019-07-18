@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="register">
     <h1>Fazer cadastro</h1>
     <label>Nome</label><input type="string" v-model="user.name" v-on:focus="hide_name_error_msg">
     <div v-if="show_name_error_msg" style="background-color: red">O nome deve conter apenas letras</div>
@@ -74,5 +74,11 @@ export default {
 </script>
 
 <style>
-
+  #register{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #ffff00;
+    padding: 70px;
+    background-color:#0f0f0a;
+  }
 </style>

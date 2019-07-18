@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="login">
     <h1>Fazer Loggin</h1>
     <label>E-mail</label><input type="email" v-model="user.email">
     <label>Senha</label><input type="password" v-model="user.password">
@@ -35,5 +35,11 @@ export default {
 </script>
 
 <style>
-
+  #login{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #ffff00;
+    padding: 70px;
+    background-color:#0f0f0a;
+  }
 </style>
